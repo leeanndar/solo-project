@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +14,15 @@
         <img class="profile-img" src="images/profile-img.png"/>
         <h1 class="profile-name">JONATHAN AMSALEM</h1>
         <div id="Contact">
-            <button class="btn">
+            <button id="email-btn" class="btn">
                 <a href="mailto:jonathan.amsalem@gmail.com" target="_blank">
                     <i class="fa fa-envelope" style="color: #0B1D26;"></i>
                     Email</a></button>
-            <button class="btn">
+            <button id="li-btn" class="btn">
                 <a href="https://www.linkedin.com/in/jonathan-amsalem/" target="_blank">
                 <i class="fa fa-linkedin-square" style="color: #0B1D26;"></i>
                 LinkedIn</a></button>
-            <button class="btn">
+            <button id="git-btn" class="btn">
                 <a href="https://github.com/jonamsalem/" target="_blank">
                 <i class="fa fa-github" style="color: #0B1D26;"></i>
                 GitHub</a></button>
@@ -30,16 +31,82 @@
             <div class="slider-items">
                 <p>Jump to</p>
                 <div class="slider-btns">
-                <p><a href="#Contact">Contact</a></p>
-                <p><a href="#Education">Education</a></p>
-                <p><a href="#Experience">Experience</a></p>
-                <p><a href="#Skills">Skills</a></p>
+                <p id="con-btn"><a href="#header">Contact</a></p>
+                <p id="edu-btn"><a href="#Education">Education</a></p>
+                <p id="exp-btn"><a href="#Experience">Experience</a></p>
+                <p id="ski-btn"><a href="#Skills">Skills</a></p>
                 </div>
             </div>
         </div>
-        <div id="content">
-            <div class="box"><img class="BG-content" src="images/BG-content.png" /></div>
+    </div>
+
+    <div id="content">
+        <div class="box"><img class="BG-content" src="images/BG-content.png" /></div>
+    </div>
+
+    <div id="items">
+        <div id="Education">
+            <div class="tagline">
+                <h1 id="title-edu">Education</h1>
+                <div class="line-left"></div>
+            </div>
+            <div class="text-wrapper">
+                <p class="text">Jonathan completed his Bachelor of Arts degree at Rutgers University in May of 2024, where he majored in Cell Biology and Neuroscience. 
+                    <br> <br>In July of 2024, he began pursuing a Master of Science degree in Biomedical Informatics at New York University, concentrating on machine learning in the context of healthcare implementations. He will obtain his Master's degree in 2025.</p>
+                <img class="DNA" src="images/DNA.jpg">
+            </div>
+        </div>
+        <div id="Experience">
+            <div class="tagline">
+                <h1 id="title-exp">Experience</h1>
+                <div class="line-right"></div>
+            </div>
+            <div class="text-wrapper">
+                <img class="NYU" src="images/NYU.png">
+                <p class="text">Jonathan is currently working as a Backend Engineer at Friend2Meet, enhancing the skills he honed in his previous Software Development apprenticeship at Upright Education. Since 2023, he has gained experience in creating algorithms, API endpoints, and unit testing. Additionally, he maintains and integrates various CI/CD tools, and deploys and manages scalable Kubernetes clusters. 
+                    <br> <br>Jonathan is also a Software Engineer Intern in the lab of NYU's Dr. Aphinyanaphong, developing agentic applications used to collaborate with internal NYU clients. </p>
+            </div>
+        </div>
+        <div id="Skills">
+            <div class="tagline">
+                <h1 id="title-ski">Skills</h1>
+                <div class="line-left"></div>
+            </div>
+            <div id="skills-text" class="text-wrapper">
+                <img class="skills-img" src="images/js.png">
+                <p>Javascript</p>
+                <img class="skills-img" src="images/python.png">
+                <p>Python</p>
+                <img class="skills-img" src="images/go.png">
+                <p>Go</p>
+                <img class="skills-img" src="images/sql.png">
+                <p>SQL</p>
+                <img class="skills-img" src="images/react.png">
+                <p>React</p>
+                <img class="skills-img" src="images/kub.png">
+                <p>Kubernetes</p>
+                <img class="skills-img" src="images/gc.png">
+                <p>Google Cloud</p>
+                <img class="skills-img" src="images/doc.webp">
+                <p>Docker</p>
+                <img class="skills-img" src="images/pos.png">
+                <p>PostgreSQL</p>
+                <img class="skills-img" src="images/mon.png">
+                <p>MongoDB</p>
+                <img class="skills-img" src="images/r.png">
+                <p>R</p>
+                <img class="skills-img" src="images/apa.webp">
+                <p>Apache Hadoop</p>
+                <div id="soft-skills">
+                    <img class="skills-img" src="images/team.png">
+                    <p>Team management</p>
+                    <img class="skills-img" src="images/plan.png">
+                    <p>Goal-oriented planning</p>
+                    <img class="skills-img" src="images/org.png">
+                    <p>Organization</p> 
+                </div>
+            </div>
         </div>
     </div>
-  </body>
+ </body>
 </html>

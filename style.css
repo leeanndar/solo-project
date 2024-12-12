@@ -22,26 +22,28 @@ a {
     background-color: antiquewhite/*#0B1D268*/;
     margin: 0;
     padding: 0;
-    height: 50vh;
+    height: 32vw;
     position: absolute;
-    width:100%;
+    width: auto;
     z-index: -2;
 }
 
 #Contact {
     display: flex;
     align-items: start;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin: 200px 50px 0px 50px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 10vw 3vw 0 0;
+    height: min-content;
 }
 
 .btn {
     background-color:inherit; /* Blue background */
     border: none; /* Remove borders */
     color: #0B1D26; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 25px; /* Set a font size */
+    padding: 1vw 1vw; /* Some padding */
+    width: 100%;
+    font-size: 1.7vw; /* Set a font size */
     font-weight: 500;
     cursor: pointer; /* Mouse pointer on hover */
     height: min-content;
@@ -50,57 +52,199 @@ a {
     z-index: +1;
   }
 
+#email-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease !important;
+}
+
+#li-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease !important;
+}
+
+#git-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease !important;
+}
+
 .profile-name {
     align-self: start;
     text-align: center;
-    padding: 30px;
-    font-size: 6rem;
+    margin-top: 6vw;
+    padding: 0;
+    font-size: 5vw;
     font-weight: 800;
     color: #0B1D26;
-    flex-basis: 500px;
+    flex-basis: 5vw;
 }
 
 .profile-img {
     align-items: flex-start;
-    margin: 50px 50px 0px 50px;
-    width: 400px;
+    margin: 2vw 3vw 0 3vw;
+    width: 20vw;
     height: min-content;
-    position: relative
+    position: relative;
+    z-index: -1;
 }
 .slider {
     display: flex;
     align-items: start;
     justify-content: end;
     height: min-content;
-    margin: -60px 50px 50px 200px;
+    margin: 6vw 0vw 4vw 2vw;
     cursor: pointer;
     z-index: +1;
 }
 
 .slider-img {
-    height: 200px;
+    height: 12vw;
+    margin-top: -10.5vw;
+    margin-left: 2vw;
 }
 .slider-items {
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 1vw;
     color: #0B1D26;
     font-family: "Gabarito", sans-serif;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: -12vw;
+}
+
+#con-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.05s ease !important;
+}
+
+#edu-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.05s ease !important;
+}
+
+#exp-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.05s ease !important;
+}
+
+#ski-btn:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.05s ease !important;
 }
 
 .slider-btns {
     text-decoration-line: underline;
     background-color: none;
-    
 }
 
 .box .BG-content {
-    position:absolute;
+    position: absolute;
     width: 100%;
-    height: 550px;
+    height: 22vw;
     top: 0;
     left: 0;
-    margin-top: 200px;
+    margin-top: 15vw;
+    z-index: -1;
   }
+
+  #items {
+    height: 20vw;
+    position: absolute;
+    z-index: 9;
+    margin: 30vw 5vw 10vw 10vw;
+  }
+
+ .tagline {
+    position: relative;
+    font-size: 2vw;
+    width: 20vw;
+    height: min-content;
+  }
+
+  .line-left {
+    position: absolute;
+    width: 8.5vw;
+    height: .5vw;
+    top: 10px;
+    left: 0;
+    background-color: antiquewhite;
+    margin-left: .5vw;
+    margin-top: 1.5vw;
+    border-radius: 10vw;
+  }
+
+  #title-edu, #title-ski {
+    margin-left: 10vw;
+  }
+
+  .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5vw;
+    gap: 10vw;
+  }
+
+  .NYU {
+    width: 40vw;
+    border: 0vw solid #56018D;
+    border-radius: 2vw;
+    box-shadow: 0vw 0vw 1vw 1vw #56018D;
+    z-index: +1;
+    margin-top: -6vw;
+  }
+
+  .DNA {
+    width: 30vw;
+    border: 0vw solid #0A80E0;
+    border-radius: 2vw;
+    box-shadow: 0vw 0vw 1vw 1vw #0A80E0;
+    z-index: +1;
+    margin-top: -6vw;
+  }
+
+  #title-exp {
+    margin-left: 60vw;
+  }
+
+  .line-right {
+    position: absolute;
+    width: 8.5vw;
+    height: .5vw;
+    top: 10px;
+    left: 0;
+    background-color: antiquewhite;
+    margin-left: 50.5vw;
+    margin-top: 1.5vw;
+    border-radius: 10vw;
+}
+
+#Education, #Experience, #Skills {
+    padding-top: 5vw;
+}
+
+#Skills {
+    padding-bottom: 5vw;
+}
+
+#skills-text {
+    justify-content: space-evenly;
+    gap: 1vw;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 5vw;
+    width: 80vw;
+}
+
+.skills-img {
+    width: 2vw;
+    padding-left: 2vw;
+}
+
+#soft-skills {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: space-around;
+    align-items: center;
+}
