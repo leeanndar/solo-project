@@ -238,7 +238,7 @@ a:visited {
   }
 
 .NYU {
-    width: 40vw;
+    width: 30vw;
     border: 0vw solid #56018D;
     border-radius: 2vw;
     box-shadow: 0vw 0vw 1vw 1vw #56018D;
@@ -256,7 +256,7 @@ a:visited {
   }
 
 #title-exp {
-    margin-left: 60vw;
+    margin-left: 50vw;
   }
 
 .line-right {
@@ -266,7 +266,7 @@ a:visited {
     top: 10px;
     left: 0;
     background-color: antiquewhite;
-    margin-left: 50.5vw;
+    margin-left: 40.5vw;
     margin-top: 1.5vw;
     border-radius: 10vw;
 }
