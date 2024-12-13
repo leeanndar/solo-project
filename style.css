@@ -318,6 +318,7 @@ a:visited {
     position: absolute;
     padding-left: 1vw;
     transition: 0.2s ease-out;
+    width: 2vw;
 }
 
 #CV:hover {
