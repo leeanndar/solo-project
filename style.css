@@ -211,17 +211,18 @@ a:visited {
     font-size: 2vw;
     width: 20vw;
     height: min-content;
+    margin-bottom: 5vw;
   }
 
 .line-left {
-    position: absolute;
+    position: static;
     width: 8.5vw;
     height: .5vw;
     top: 10px;
     left: 0;
     background-color: antiquewhite;
     margin-left: .5vw;
-    margin-top: 1.5vw;
+    margin-top: -5vw;
     border-radius: 10vw;
   }
 
@@ -260,14 +261,12 @@ a:visited {
   }
 
 .line-right {
-    position: absolute;
+    position: static;
     width: 8.5vw;
     height: .5vw;
-    top: 10px;
-    left: 0;
     background-color: antiquewhite;
     margin-left: 40.5vw;
-    margin-top: 1.5vw;
+    margin-top: -5vw;    
     border-radius: 10vw;
 }
 
